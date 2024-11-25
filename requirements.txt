@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+tensorflow
+fastapi
+uvicorn
+streamlit
+sqlalchemy
+psycopg2
