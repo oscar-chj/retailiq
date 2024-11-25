@@ -1,6 +1,25 @@
-venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-data/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Data files
+data/raw/
+data/processed/
+
+# Model files
+src/models/*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.docker
