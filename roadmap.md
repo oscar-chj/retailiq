@@ -3,14 +3,43 @@
 ## Overview
 **RetailIQ** aims to leverage AI to enhance demand forecasting, focusing on the retail industry's logistics. The goal is to improve inventory management, streamline supply chain operations, and ultimately boost customer satisfaction by providing more accurate demand forecasts. By utilizing advanced machine learning techniques, **RetailIQ** will help businesses make smarter decisions, reduce wastage, and optimize their logistics in real-time.
 
+## Scope & Requirements
+
+### Key Problems
+- **Overstocking and Understocking**: Retailers struggle with maintaining optimal stock levels, leading to either excess inventory or stockouts.
+- **Inefficient Supply Chain**: Retailers face challenges in optimizing transport routes, reducing delivery times, and managing warehouse efficiency.
+- **Customer Satisfaction**: Ensuring products are available at the right place and time is crucial for maintaining high customer satisfaction.
+
+### Project Goals
+- Develop an AI model that can **predict demand accurately** to assist in:
+  - **Inventory Management**: Optimizing stock levels to reduce overstock and understock scenarios.
+  - **Logistics Optimization**: Streamlining warehouse processes, optimizing transport routes, and minimizing delivery times.
+  - **Business Decision-Making**: Providing useful insights to support strategic decisions.
+
+### Key Metrics
+- **Accuracy of Forecasting**: Use metrics like RMSE or MAE to measure the accuracy of demand predictions.
+- **Supply Chain Efficiency**: Reduction in delivery times, reduced logistics costs, and increased efficiency.
+- **Inventory Optimization**: Reduced wastage, higher turnover rates, and minimized stockouts.
+
+### Target Users
+- **Retail Store Managers**: Interested in maintaining optimal stock levels.
+- **Supply Chain Managers**: Focused on optimizing logistics operations.
+- **Inventory Analysts**: Need insights for inventory planning and stock control.
+- **Logistics Coordinators**: Responsible for managing transport and warehousing efficiently.
+
+### Initial Data Sources
+- **Historical Sales Data**: Public datasets or retailer-provided data on past sales trends.
+- **Logistics Data**: Information related to warehouse operations, transport routes, and delivery times.
+- **Customer Trends**: Data that captures customer behavior, seasonality, and external factors impacting demand.
+
 ## Roadmap
 
 ### Phase 1: Planning and Setup
 - **1.1 Define Scope & Requirements**: Clearly outline the goals of the project, focusing on improving demand forecasting and optimizing logistics in the retail sector. Identify specific pain points to be addressed.
 - **1.2 Technology Stack Selection**: Choose the appropriate tools and technologies to use. For this project:
   - **Programming Language**: Python
-  - **Frameworks/Libraries**: TensorFlow or PyTorch, Pandas, Scikit-learn, FastAPI (for API development), Streamlit (for UI visualization)
-  - **Database**: PostgreSQL or MongoDB for data storage
+  - **Frameworks/Libraries**: TensorFlow, Pandas, Scikit-learn, FastAPI (for API development), Streamlit (for UI visualization)
+  - **Database**: PostgreSQL for data storage
 - **1.3 Project Structure on GitHub**:
   - Create a GitHub repository for **RetailIQ**.
   - Set up README.md, ROADMAP.md, and basic project folder structure.
