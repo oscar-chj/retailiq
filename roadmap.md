@@ -38,8 +38,8 @@
 - **1.1 Define Scope & Requirements**: Clearly outline the goals of the project, focusing on improving demand forecasting and optimizing logistics in the retail sector. Identify specific pain points to be addressed.
 - **1.2 Technology Stack Selection**: Choose the appropriate tools and technologies to use. For this project:
   - **Programming Language**: Python
-  - **Frameworks/Libraries**: TensorFlow or PyTorch, Pandas, Scikit-learn, FastAPI (for API development), Streamlit (for UI visualization)
-  - **Database**: PostgreSQL or MongoDB for data storage
+  - **Frameworks/Libraries**: TensorFlow, Pandas, Scikit-learn, FastAPI (for API development), Streamlit (for UI visualization)
+  - **Database**: PostgreSQL for data storage
 - **1.3 Project Structure on GitHub**:
   - Create a GitHub repository for **RetailIQ**.
   - Set up README.md, ROADMAP.md, and basic project folder structure.
